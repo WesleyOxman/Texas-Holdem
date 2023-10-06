@@ -1,4 +1,4 @@
-
+"""
 import random as rand
 
 numPlayer = eval(input("Enter the number of players?:"))
@@ -130,3 +130,4 @@ for _ in range (2):
         player21hand.append(rand.cards)
     if numPlayer >= 22:
         player22hand.append(rand.cards)
+"""

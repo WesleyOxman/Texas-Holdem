@@ -1,3 +1,4 @@
+"""
 #(put name here)
 class Start_Phase:
     def __init__(self):
@@ -20,3 +21,4 @@ class Start_Phase:
     def starting_bet(self):
         if self.full_round > numPlayer:
             self.starting_bet += 5
+"""

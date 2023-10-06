@@ -30,7 +30,6 @@ class TexasHoldem:
          'queen_of_spades', 'queen_of_clubs', 'queen_of_diamonds', 'queen_of_hearts', 
          'king_of_spades', 'king_of_clubs', 'king_of_diamonds', 'king_of_hearts']
     rand.shuffle(self.deck)
-    print(self.deck)
     
     if self.numPlayer >= 1:
       self.player1hand = []
@@ -74,9 +73,6 @@ class TexasHoldem:
       self.deck.remove(self.p4card2)
       self.MoneyP4 = self.playerStart
       self.player4 = 1
-      print(self.player4hand)
-      return self.player4hand
-
       
     if self.numPlayer >= 5:
       self.player5hand = []
