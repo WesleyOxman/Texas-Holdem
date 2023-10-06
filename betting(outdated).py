@@ -1,5 +1,3 @@
-"""
-
 class betting(self):
     def pot(self):
         self.pot = eval(input("What would you like the pot to start out with?"))
@@ -12,12 +10,13 @@ class betting(self):
         Dislplay(self.yourMoney)
     def callBet(self):
         print("Are you sure you would like to Call? (Y or N)")
-      ("Y") :
+      f  ("Y") :
         print("You have Checked")
-    else:
+      else:
         print("Choose a differen" move)
-            return break  
-"""
+    
+return break  
+      
             
     
         
